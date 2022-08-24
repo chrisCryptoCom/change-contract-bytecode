@@ -36,6 +36,8 @@ contract BeforeChange is BaseTest {
 contract AfterChange is BaseTest {
     function setUp() public override {
         super.setUp();
+        // We have to do this in the setup method, since forge treats all calls in a test as a single tx, therefore a selfdestruct inside a test will not take effect until the test finished.
+        // See: https://github.com/foundry-rs/foundry/issues/1543
         instance.destroy();
         overwrite.setCode(type(ContractV2).runtimeCode);
     }
