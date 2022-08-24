@@ -5,7 +5,7 @@ import "forge-std/Test.sol";
 import "../src/ContractV1.sol";
 import "../src/ContractV2.sol";
 import "../src/Overwrite.sol";
-import "../src/Addresses.sol";
+import "./Addresses.sol";
 
 contract SetCode is Test {
     Overwrite overwrite;

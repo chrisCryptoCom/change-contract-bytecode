@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
 import "../src/Overwrite.sol";
-import "../src/Addresses.sol";
+import "./Addresses.sol";
 
 contract CreateInstance is Test {
     Overwrite overwrite;
