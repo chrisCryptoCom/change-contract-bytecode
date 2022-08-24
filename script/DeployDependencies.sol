@@ -13,6 +13,7 @@ contract DeployDependencies is Test {
     function run() public {
         vm.startBroadcast();
 
+        // These reference deployments are optional / helpful if verified on blockexplorer 
         // ContractV1 v1 = new ContractV1();
         // emit log_named_address("ContractV1: ", address(v1));
         // ContractV2 v2 = new ContractV2();

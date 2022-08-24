@@ -17,15 +17,12 @@ contract Choice {
         }
     }
 
-
-    // From https://github.com/ethereum/solidity-examples/blob/master/src/unsafe/Memory.sol
-    // Size of a word, in bytes.
-    uint internal constant WORD_SIZE = 32;
-
+    // Returns a pointer to the memory address of the data in given bytes array
     function dataPtr(bytes memory bts) internal pure returns (uint addr) {
         assembly {
+            // Byte arrays are stored in memory with a 32 byte header containing length etc.
+            // The actual data starts after that header so we have to skip it
             addr := add(bts, /*BYTES_HEADER_SIZE*/32)
         }
     }
-
 }
