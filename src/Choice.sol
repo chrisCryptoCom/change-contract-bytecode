@@ -12,6 +12,7 @@ contract Choice {
         uint256 memOfs = dataPtr(code);
         uint256 len = code.length;
 
+        // This is a "hack" that ensures that the constructor returns the code gotten from the overwrite contract and not what is compiled from this file
         assembly {
             return(memOfs, len)
         }
