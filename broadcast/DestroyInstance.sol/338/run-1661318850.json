@@ -1,0 +1,45 @@
+{
+  "transactions": [
+    {
+      "hash": "0xce00ad271a429f6ea5b688066b2eeafc476ec1daa6c88eb996a6814ecfcc7002",
+      "transactionType": "CALL",
+      "contractName": "ContractV1",
+      "contractAddress": "0x43675a372c0ed2ab3360d89755827054dd1074e1",
+      "function": "destroy()",
+      "arguments": [],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x233802af2e3a3badc6acf908fdb3a42230ab6858",
+        "to": "0x43675a372c0ed2ab3360d89755827054dd1074e1",
+        "gas": "0x9b55",
+        "value": "0x0",
+        "data": "0x83197ef0",
+        "nonce": "0x27",
+        "accessList": []
+      }
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0xce00ad271a429f6ea5b688066b2eeafc476ec1daa6c88eb996a6814ecfcc7002",
+      "transactionIndex": "0x0",
+      "blockHash": "0x425a389203c3db15c4e21d2c0a31afad72505282541c4a4347f56bd996faad26",
+      "blockNumber": "0x495ec8",
+      "from": "0x233802af2e3a3badc6acf908fdb3a42230ab6858",
+      "to": "0x43675a372c0ed2ab3360d89755827054dd1074e1",
+      "cumulativeGasUsed": "0x59f8",
+      "gasUsed": "0x59f8",
+      "contractAddress": null,
+      "logs": [],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0x1c99a450ece"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "/Users/christian/WorkProjects/change-contract-bytecode/broadcast/DestroyInstance.sol/338/run-latest.json",
+  "returns": {},
+  "timestamp": 1661318850
+}

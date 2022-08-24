@@ -1,0 +1,46 @@
+{
+  "transactions": [
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x1bb9c0be66cd843e6d951cbd613f15b0391bfa72",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x233802af2e3a3badc6acf908fdb3a42230ab6858",
+        "to": "0x1bb9c0be66cd843e6d951cbd613f15b0391bfa72",
+        "gas": "0xce78",
+        "value": "0x0",
+        "data": "0x6c5d4ad0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000896080604052348015600f57600080fd5b506004361060325760003560e01c806354fd4d5014603757806383197ef014604b575b600080fd5b600160405190815260200160405180910390f35b60516000ff5b00fea2646970667358221220c28b03f33efd41d09455eea13e24f55e5cb624b0e58d2c350e7d9f0688de05db64736f6c634300080f00330000000000000000000000000000000000000000000000",
+        "nonce": "0x23",
+        "accessList": []
+      }
+    },
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x1bb9c0be66cd843e6d951cbd613f15b0391bfa72",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x233802af2e3a3badc6acf908fdb3a42230ab6858",
+        "to": "0x1bb9c0be66cd843e6d951cbd613f15b0391bfa72",
+        "gas": "0x2286b",
+        "value": "0x0",
+        "data": "0xa5e387510000000000000000000000000000000000000000000000000000000000000002",
+        "nonce": "0x24",
+        "accessList": []
+      }
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [],
+  "path": "/Users/christian/WorkProjects/change-contract-bytecode/broadcast/CreateInstance.sol/338/run-latest.json",
+  "returns": {},
+  "timestamp": 1661318486
+}

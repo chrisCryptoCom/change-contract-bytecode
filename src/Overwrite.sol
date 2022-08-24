@@ -6,10 +6,20 @@ import "./Loader.sol";
 
 
 contract Overwrite {
-    function create(address _loader, address _implementation, uint256 _salt) external returns(address){
-        Loader(_loader).setImplementation(_implementation);
+
+    bytes code;
+
+    function setCode(bytes memory _code) public {
+        code = _code;
+    }
+
+    function getCode() public view returns (bytes memory) {
+        return code;
+    }
+
+    function deploy(uint256 _salt) external returns(address) {
         bytes32 salt = bytes32(_salt);
-        Choice d = new Choice{salt: salt}(_loader);
+        Choice d = new Choice{salt: salt}();
         return address(d);
     }
 }

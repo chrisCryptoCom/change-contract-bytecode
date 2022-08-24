@@ -1,0 +1,45 @@
+{
+  "transactions": [
+    {
+      "hash": "0xd7697df5a056bcf7fc8e50463c44728f2b1c7cbf76cf0a33d25958cb1cd7ea48",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x1bb9c0be66cd843e6d951cbd613f15b0391bfa72",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x233802af2e3a3badc6acf908fdb3a42230ab6858",
+        "to": "0x1bb9c0be66cd843e6d951cbd613f15b0391bfa72",
+        "gas": "0x2286b",
+        "value": "0x0",
+        "data": "0xa5e387510000000000000000000000000000000000000000000000000000000000000002",
+        "nonce": "0x26",
+        "accessList": []
+      }
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0xd7697df5a056bcf7fc8e50463c44728f2b1c7cbf76cf0a33d25958cb1cd7ea48",
+      "transactionIndex": "0x0",
+      "blockHash": "0xded2654688215fe34586492527c9ddbf5b2d72b883812258f481ff25574c278b",
+      "blockNumber": "0x495ec1",
+      "from": "0x233802af2e3a3badc6acf908fdb3a42230ab6858",
+      "to": "0x1bb9c0be66cd843e6d951cbd613f15b0391bfa72",
+      "cumulativeGasUsed": "0x18f99",
+      "gasUsed": "0x18f99",
+      "contractAddress": null,
+      "logs": [],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0x1c99a4726fb"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "/Users/christian/WorkProjects/change-contract-bytecode/broadcast/CreateInstance.sol/338/run-latest.json",
+  "returns": {},
+  "timestamp": 1661318809
+}
